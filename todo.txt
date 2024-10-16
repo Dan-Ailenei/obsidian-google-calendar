@@ -1,0 +1,12 @@
+// todo:
+// 	- suficient sa pun on file change sa parsez taskurile cu dataview si sa vad exact daca s-a adaugat un nou task si daca s-a schimbat unul
+// 	- la startup se poate apela o functie similara sa evit cazurile
+//		care un update nu a apucat sa fie facut
+//		la update pt ca editorul a fost stins for some reason.
+//		Requesturile ar trebui sa fie minime deoarece vor fi doar taskurile not done care au date
+//  - DONE trebuie scrisa o functie care sa odauge automat id pe fiecare task (daca tot face asta poate adauga si creation date)
+//  - functie de apel si update la google calendar, obsidian va fi source of truth
+//  - check if the credential are set, if no, stop
+//  - DONE should check if there are multiple matches when searching for the task in the file -- this is a really nasty bag if you copy paste the same task
+//
+
